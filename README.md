@@ -1,6 +1,6 @@
-# client
+# Client
 
-> My doozie Nuxt.js project
+Client application of the Chamber of Industrial Power and Energy Recipients website.
 
 ## Build Setup
 
