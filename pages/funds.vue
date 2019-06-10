@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card>
-      <v-card-text>
+      <v-card-text text-xs-justify>
         <h5 class="headline mb-3">
           Fundusz i dotacje
         </h5>

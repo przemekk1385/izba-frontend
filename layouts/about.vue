@@ -10,7 +10,8 @@
                 <v-list-tile
                   v-for="(item, index) in items"
                   :key="index"
-                  exact-active-class="blue lighten-4"
+                  dark
+                  exact-active-class="amber darken-1"
                   :to="`${item.href}`"
                   nuxt
                 >
@@ -24,7 +25,7 @@
                 class="hidden-md-and-up"
               ></v-breadcrumbs>
             </v-flex>
-            <v-flex xs12 sm12 md10>
+            <v-flex xs12 sm12 md10 text-xs-justify>
               <nuxt />
             </v-flex>
           </v-layout>
@@ -71,3 +72,11 @@ export default {
   }
 }
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+// overwrites
+.v-list__tile--active > .v-list__tile__content > .v-list__tile__title {
+  color: #ffffff;
+}
+</style>

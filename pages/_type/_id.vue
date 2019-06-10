@@ -15,7 +15,7 @@
         </v-layout>
       </v-img>
       <v-responsive v-else :aspect-ratio="16 / 9">
-        <v-layout column fill-height class="indigo darken-1 white--text">
+        <v-layout column fill-height class="indigo darken-4 white--text">
           <v-spacer></v-spacer>
           <v-flex shrink class="pa-3">
             <div class="headline">{{ post.title }}</div>
@@ -32,6 +32,7 @@
           <v-flex
             xs12
             sm12
+            text-xs-justify
             class="mb-3 pr-3"
             :class="
               post.attachment_set.length || post.eventparticipants_set.length

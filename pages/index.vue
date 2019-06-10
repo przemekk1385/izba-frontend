@@ -43,7 +43,7 @@
       </v-flex>
       <v-flex xs12 sm4>
         <v-layout fill-height wrap>
-          <v-flex xs6 sm12 class="min-h-50 white pa-3">
+          <v-flex xs6 sm12 class="min-h-50 amber darken-1 pa-3  white--text">
             <v-layout
               align-center
               fill-height
@@ -52,17 +52,19 @@
             >
               <v-flex>
                 <p>
-                  <v-icon large>info</v-icon>
+                  <v-icon dark large>info</v-icon>
                 </p>
-                <p class="caption caption--spaced font-weight-thin mb-3">
+                <p
+                  class="caption caption--spaced font-weight-thin mb-3 text-xs-justify"
+                >
                   Izba Energetyki Przemysłowej i&nbsp;Odbiorców Energii jest
                   organizacją zrzeszającą podmioty związane z&nbsp;wytwarzaniem,
                   przesyłem, obrotem i&nbsp;odbiorem energii elektrycznej oraz
                   cieplnej.
                 </p>
                 <p class="text-xs-right">
-                  <v-btn flat icon nuxt to="/about">
-                    <v-icon>chevron_right</v-icon>
+                  <v-btn dark flat icon nuxt to="/about">
+                    <v-icon dark>chevron_right</v-icon>
                   </v-btn>
                 </p>
               </v-flex>
@@ -76,14 +78,14 @@
               @click="$router.push({ name: 'about' })"
             >
               <v-flex text-xs-center>
-                <v-icon large>info</v-icon>
-                <div class="headline grey--text text--darken-1">
+                <v-icon dark large>info</v-icon>
+                <div class="headline white--text hidden-sm-and-down">
                   O Izbie
                 </div>
               </v-flex>
             </v-layout>
           </v-flex>
-          <v-flex xs6 sm12 class="min-h-50 indigo darken-1 pa-3 white--text">
+          <v-flex xs6 sm12 class="min-h-50 indigo darken-4 pa-3 white--text">
             <v-layout
               align-center
               fill-height
@@ -94,7 +96,9 @@
                 <p>
                   <v-icon dark large>attach_money</v-icon>
                 </p>
-                <p class="caption caption--spaced font-weight-thin mb-3">
+                <p
+                  class="caption caption--spaced font-weight-thin mb-3 text-xs-justify"
+                >
                   Izba Energetyki Przemysłowej i&nbsp;Odbiorców Energii skupia
                   się na prowadzeniu działań zmierzających do zredukowania
                   kosztów energii dla jej Członków.
@@ -116,7 +120,9 @@
             >
               <v-flex class=" text-xs-center">
                 <v-icon dark large>attach_money</v-icon>
-                <div class="headline white--text">Zaoszczędź</div>
+                <div class="headline white--text hidden-sm-and-down">
+                  Zaoszczędź
+                </div>
               </v-flex>
             </v-layout>
           </v-flex>
@@ -164,7 +170,7 @@
           column
           fill-height
           justify-space-between
-          class="indigo darken-1 pa-1 white--text"
+          class="indigo darken-4 pa-1 white--text"
         >
           <v-flex>
             <div class="ma-3 title">{{ post.title }}</div>

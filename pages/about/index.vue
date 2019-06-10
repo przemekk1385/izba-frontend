@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid text-xs-justify>
     <h5 class="headline mb-3">
       O Izbie Energetyki Przemysłowej i Odbiorców Energii
     </h5>

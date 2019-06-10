@@ -18,7 +18,7 @@
         <v-btn
           v-for="(item, index) in items"
           :key="index"
-          exact-active-class="yellow darken-3 white--text"
+          exact-active-class="amber darken-1 white--text"
           flat
           nuxt
           :to="item.href"
@@ -64,9 +64,15 @@ export default {
           href: '/events'
         },
         {
+          text: 'Kontakt',
+          href: '/contact'
+        }
+        /*
+        {
           text: 'Fundusze',
           href: '/funds'
         }
+        */
       ]
     }
   },

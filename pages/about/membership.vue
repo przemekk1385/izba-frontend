@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid text-xs-justify>
     <h5 class="headline mb-3">
       Jak zostać członkiem?
     </h5>
