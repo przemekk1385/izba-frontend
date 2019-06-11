@@ -18,6 +18,19 @@
             </v-responsive>
           </v-flex>
           <v-flex xs12 md6 class="pa-3">
+            <h6 class="title my-3">Biuro IEPiOE</h6>
+            <p>
+              <strong>Agata Uba</strong><br />
+              Kierownik Biura Izby
+            </p>
+            <p>
+              <strong>Elwira Teodorowicz</strong><br />
+              Specjalista ds. kadrowo-finansowych
+            </p>
+            <p>
+              <strong>Natalia Podkomorzy-Goralewska</strong><br />
+              Specjalista ds. obsługi biura
+            </p>
             <h6 class="title mb-3">Dane teleadresowe</h6>
             <strong>
               Izba Energetyki Przemysłowej<br />
@@ -48,15 +61,6 @@
                 <a href="mailto:iep@iep.org.pl">iep@iep.org.pl</a>
               </v-flex>
             </v-layout>
-            <h6 class="title my-3">Biuro IEPiOE</h6>
-            <p>
-              <em>Kierownik Biura Izby</em><br />
-              Agata Uba<br />
-              <em>Specjalista ds. kadrowo-finansowych</em><br />
-              Elwira Teodorowicz<br />
-              <em>Specjalista ds. obsługi biura</em><br />
-              Natalia Podkomorzy-Goralewska
-            </p>
           </v-flex>
         </v-layout>
       </v-card-text>

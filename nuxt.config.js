@@ -62,7 +62,7 @@ export default {
     loaders: {
       stylus: {
         import: [
-          '~assets/style/variables.styl',
+          '~assets/style/carousel.styl',
           '~assets/style/theme.styl'
         ]
       }

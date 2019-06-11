@@ -56,16 +56,20 @@ export default {
     align-self: center;
   }
 }
-// custom
 .iep-caption {
   &--carousel {
     margin-bottom: 50px;
   }
-  background-color: #000;
-  opacity: 0.5;
+  background-color: black;
+  opacity: 0.75;
 }
-.min-h-50 {
-  min-height: 50%;
+.min-h {
+  &-50 {
+    min-height: 50%;
+  }
+  &-30 {
+    min-height: 30%;
+  }
 }
 
 // extends existing

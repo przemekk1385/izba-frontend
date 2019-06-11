@@ -52,19 +52,15 @@ export default {
     return {
       items: [
         {
-          text: 'Partnerzy',
-          href: '/about/partners'
+          text: 'Władze',
+          href: '/about/board'
         },
         {
           text: 'Członkowie',
           href: '/about/members'
         },
         {
-          text: 'Władze',
-          href: '/about/board'
-        },
-        {
-          text: 'Jak zostać członkiem?',
+          text: 'Jak zostać Członkiem?',
           href: '/about/membership'
         }
       ]
@@ -77,6 +73,6 @@ export default {
 <style scoped lang="scss">
 // overwrites
 .v-list__tile--active > .v-list__tile__content > .v-list__tile__title {
-  color: #ffffff;
+  color: white;
 }
 </style>

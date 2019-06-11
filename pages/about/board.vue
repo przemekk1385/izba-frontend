@@ -8,7 +8,7 @@
         <h6 class="title mb-3">Prezes Zarządu</h6>
         <p>
           Henryk Kaliś<br />
-          <small><em>ZGH Bolesław S.A.</em></small>
+          <small>ZGH Bolesław S.A.</small>
         </p>
       </v-flex>
       <v-flex xs12>
