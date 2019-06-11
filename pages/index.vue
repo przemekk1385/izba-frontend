@@ -74,7 +74,7 @@
               fill-height
               justify-center
               tag="a"
-              class="hidden-lg-and-up"
+              class="hidden-lg-and-up grey--text"
               @click="$router.push({ name: 'about' })"
             >
               <v-flex text-xs-center>
