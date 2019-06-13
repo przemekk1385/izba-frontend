@@ -1,11 +1,11 @@
 <template>
   <v-container fluid text-xs-justify>
     <h5 class="headline mb-3">
-      Jak zostać członkiem?
+      Jak zostać Członkiem?
     </h5>
     <p>
       <strong>
-        Aby zostać członkiem Izby Energetyki Przemysłowej i Odbiorców Energii
+        Aby zostać Członkiem Izby Energetyki Przemysłowej i Odbiorców Energii
         należy przejść cztery proste kroki:
       </strong>
     </p>
@@ -67,7 +67,7 @@ export default {
   layout: 'about',
   head() {
     return {
-      title: 'IEPiOE :: Jak zostać członkiem?'
+      title: 'IEPiOE :: Jak zostać Członkiem?'
     }
   },
   data() {

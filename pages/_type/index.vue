@@ -20,7 +20,7 @@
             </v-layout>
           </v-img>
           <v-responsive v-else :aspect-ratio="16 / 9">
-            <v-layout align-end fill-height class="indigo darken-4 white--text">
+            <v-layout align-end fill-height class="blue darken-4 white--text">
               <v-flex class="pa-3">
                 <div class="title">{{ post.title }}</div>
               </v-flex>
@@ -32,7 +32,7 @@
           <v-card-actions>
             <v-btn
               flat
-              color="indigo darken-4"
+              color="blue darken-4"
               nuxt
               :to="`/${$route.params.type}/${post.id}`"
             >
@@ -46,7 +46,7 @@
       <v-flex text-xs-center>
         <v-pagination
           v-model="page"
-          color="yellow darken-3"
+          color="amber darken-1"
           :length="length"
         ></v-pagination>
       </v-flex>

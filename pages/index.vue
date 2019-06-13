@@ -172,7 +172,7 @@
           column
           fill-height
           justify-space-between
-          class="indigo darken-4 pa-1 white--text"
+          class="blue darken-4 pa-1 white--text"
         >
           <v-flex>
             <div class="ma-3 title">{{ post.title }}</div>

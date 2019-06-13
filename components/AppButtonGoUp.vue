@@ -2,7 +2,7 @@
   <v-layout row class="hidden-md-and-up">
     <v-spacer></v-spacer>
     <v-flex shrink>
-      <v-btn dark icon large color="yellow darken-3" @click="goUp">
+      <v-btn dark icon large color="amber darken-1" @click="goUp">
         <v-icon large>keyboard_arrow_up</v-icon>
       </v-btn>
     </v-flex>

@@ -15,7 +15,7 @@
         </v-layout>
       </v-img>
       <v-responsive v-else :aspect-ratio="16 / 9">
-        <v-layout column fill-height class="indigo darken-4 white--text">
+        <v-layout column fill-height class="blue darken-4 white--text">
           <v-spacer></v-spacer>
           <v-flex shrink class="pa-3">
             <div class="headline">{{ post.title }}</div>
@@ -51,7 +51,7 @@
           >
             <v-layout column>
               <v-flex v-if="post.attachment_set.length">
-                <h5 class="headline indigo--text text--darken-1">
+                <h5 class="headline blue--text text--darken-1">
                   Pobierz
                 </h5>
                 <v-list dense>
@@ -79,7 +79,7 @@
                   :class="post.attachment_set.length || index > 0 ? 'my-3' : ''"
                 >
                   <v-flex xs12>
-                    <h5 class="headline indigo--text text--darken-1">
+                    <h5 class="headline blue--text text--darken-1">
                       {{ eventparticipants.label }}
                     </h5>
                     <v-layout wrap>

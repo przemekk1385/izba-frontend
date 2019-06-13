@@ -29,7 +29,7 @@
             </v-layout>
           </template>
         </v-img>
-        <a href="`${member.url}`">{{ member.name }}</a>
+        <a :href="`${member.url}`">{{ member.name }}</a>
       </v-flex>
     </v-layout>
   </v-container>
