@@ -59,6 +59,7 @@
                     v-for="attachment in post.attachment_set"
                     :key="attachment.file"
                     :href="attachment.file"
+                    target="_blank"
                   >
                     <v-list-tile-action>
                       <v-icon>attach_file</v-icon>
@@ -148,6 +149,17 @@ export default {
   async asyncData({ app, params }) {
     const { id } = params
     const post = await app.$axios.$get(`${baseURL}posts/${id}/?markdownify`)
+    const allEntities = await app.$axios.$get(`${baseURL}entities/?type=other`)
+    // fills missing entities data
+    post.eventparticipants_set = post.eventparticipants_set.map(ep => {
+      const { label } = ep
+      let { entities } = ep
+      entities = entities.map(id => allEntities.find(e => e.id === id))
+      return {
+        entities,
+        label
+      }
+    })
     post.content = extraClass(post.content, 'blockquote', 'blockquote')
     post.content = extraClass(post.content, 'ol', 'mb-3')
     post.content = extraClass(post.content, 'ul', 'mb-3')
