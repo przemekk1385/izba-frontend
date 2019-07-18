@@ -24,7 +24,7 @@
                   $router.push({
                     name: 'type-id',
                     params: {
-                      type: item.datetime ? 'events' : 'news',
+                      type: item.eventdetails ? 'events' : 'news',
                       id: item.id
                     }
                   })
@@ -148,7 +148,7 @@
                 $router.push({
                   name: 'type-id',
                   params: {
-                    type: post.datetime ? 'events' : 'news',
+                    type: post.eventdetails ? 'events' : 'news',
                     id: post.id
                   }
                 })
@@ -191,7 +191,7 @@
               dark
               icon
               nuxt
-              :to="`/${post.datetime ? 'events' : 'news'}/${post.id}`"
+              :to="`/${post.eventdetails ? 'events' : 'news'}/${post.id}`"
             >
               <v-icon dark>chevron_right</v-icon>
             </v-btn>

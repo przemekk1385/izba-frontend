@@ -81,12 +81,5 @@ export default {
         })
       }
     }
-  },
-
-  /*
-   ** Router configuration
-   */
-  router: {
-    mode: 'hash'
-  },
+  }
 }

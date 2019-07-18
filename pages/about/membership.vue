@@ -27,10 +27,6 @@
       </li>
     </ul>
     <p class="mt-3">
-      Po otrzymaniu dokumentów skontaktujemy się z Państwem celem finalizacji
-      procesu.
-    </p>
-    <p>
       W razie wszelkich pytań i wątpliwości prosimy o kontakt z Biurem IEPiOE:
     </p>
     <p>

@@ -60,13 +60,16 @@
     </p>
     <h5 class="headline mb-3">Targi Energii</h5>
     <p>
-      Izba jest organizatorem Targów Energii – wydarzenia z wieloletnią
-      tradycją, w którym uczestniczą kluczowi przedstawiciele wszystkich
-      najważniejszych podmiotów na rynkach energii. Co roku w Jachrance
-      spotykają się producenci, odbiorcy, sprzedawcy, dystrybutorzy oraz
-      wysokiego szczebla przedstawiciele administracji publicznej, związani. W
-      ciągu dwóch dni równolegle omawiane są najważniejsze bieżące zagadnienia w
-      branży energetycznej oraz prowadzone są rozmowy biznesowe.
+      Izba wspólnie z
+      <a href="http://www.toe.pl/pl/">Towarzystwem Obrotu Energią</a> organizują
+      <a href="http://www.targienergii.pl/">Targi Energii</a> – jest to
+      wydarzenie z wieloletnią tradycją, w którym uczestniczą kluczowi
+      przedstawiciele wszystkich najważniejszych podmiotów na rynkach energii.
+      Co roku w Jachrance spotykają się producenci, odbiorcy, sprzedawcy,
+      dystrybutorzy oraz wysokiego szczebla przedstawiciele administracji
+      publicznej, związani. W ciągu dwóch dni równolegle omawiane są
+      najważniejsze bieżące zagadnienia w branży energetycznej oraz prowadzone
+      są rozmowy biznesowe.
     </p>
     <h6 class="title mb-3">
       Zapraszamy do przystąpienia do Izby Energetyki Przemysłowej i Odbiorców
