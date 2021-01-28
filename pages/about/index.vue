@@ -87,12 +87,12 @@ import AboutDocuments from '~/components/AboutDocuments'
 
 export default {
   components: {
-    AboutDocuments
+    AboutDocuments,
   },
   layout: 'about',
   head() {
     return {
-      title: 'IEPiOE :: O Izbie'
+      title: 'IEPiOE :: O Izbie',
     }
   },
   data() {
@@ -100,26 +100,26 @@ export default {
       assets: [
         {
           href: '/documents/statut-iepioe.pdf',
-          text: 'Statut'
+          text: 'Statut',
         },
         {
           href: '/documents/ordynacja-wyborcza.pdf',
-          text: 'Ordynacja wyborcza'
+          text: 'Ordynacja wyborcza',
         },
         {
           href: '/documents/regulamin-obrad.pdf',
-          text: 'Regulamin obrad'
+          text: 'Regulamin obrad',
         },
         {
           href: '/documents/deklaracja-przystapienia.pdf',
-          text: 'Deklaracja przystąpienia'
+          text: 'Deklaracja przystąpienia',
         },
         {
           href: '/documents/ankieta.pdf',
-          text: 'Ankieta'
-        }
-      ]
+          text: 'Ankieta',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
