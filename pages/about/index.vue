@@ -47,16 +47,15 @@
       Inicjatywy Izby Energetyki Przemysłowej i Odbiorców Energii
     </h5>
     <p>
-      Z inicjatywy Izby powstały
-      <a href="http://odbiorcyenergii.pl/">FORUM<sup>CO2</sup></a> oraz
+      Z inicjatywy Izby powstało
       <a href="http://odbiorcyenergii.pl/"
         >Forum Odbiorców Energii Elektrycznej i Gazu (FOEEiG)</a
-      >, które zrzeszają organizacje i stowarzyszenia branżowe polskiego
-      przemysłu energochłonnego. Celem obu Forów jest utrzymanie
-      konkurencyjności polskiego przemysłu oraz wspierania kształtowania zasad
-      funkcjonowania rynków: energii elektrycznej, gazu oraz ciepła. Fora są
-      platformą do dyskusji i uzgadniania stanowisk w sprawach szeroko
-      rozumianej polityki energetyczno-klimatycznej.
+      >, które zrzesza organizacje i stowarzyszenia branżowe polskiego przemysłu
+      energochłonnego. Celem Forum jest utrzymanie konkurencyjności polskiego
+      przemysłu oraz wspierania kształtowania zasad funkcjonowania rynków:
+      energii elektrycznej, gazu oraz ciepła. Forum jest platformą do dyskusji i
+      uzgadniania stanowisk w sprawach szeroko rozumianej polityki
+      energetyczno-klimatycznej.
     </p>
     <h5 class="headline mb-3">Targi Energii</h5>
     <p>
