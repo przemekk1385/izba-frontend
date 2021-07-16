@@ -205,7 +205,7 @@
 <script>
 import AppEventDetails from '~/components/AppEventDetails'
 
-const host = 'http://backend.izba.iep.megiteam.pl/'
+const host = 'http://backend.iep.kalis.ovh/'
 const baseURL = `${host}api/`
 const resource = 'posts/'
 export default {

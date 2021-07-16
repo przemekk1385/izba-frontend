@@ -137,7 +137,7 @@ const extraClass = (text, tag, className) => {
   return text.replace(re, `<${tag} class="${className}">`)
 }
 
-const host = 'http://backend.izba.iep.megiteam.pl/'
+const host = 'http://backend.iep.kalis.ovh/'
 const baseURL = `${host}api/`
 export default {
   components: {
