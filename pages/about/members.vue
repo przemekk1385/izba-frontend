@@ -36,7 +36,7 @@
 </template>
 
 <script>
-const host = 'http://backend.izba.iep.megiteam.pl/'
+const host = 'http://backend.iep.kalis.ovh/'
 const baseURL = `${host}api/`
 const resource = 'entities/?type=member'
 export default {
