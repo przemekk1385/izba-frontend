@@ -19,14 +19,14 @@
           </v-flex>
           <v-flex xs12 md6 class="pa-3">
             <h6 class="title my-3">Biuro IEPiOE</h6>
-            <p>
+            <!-- <p>
               <strong>Agata Uba</strong><br />
               Kierownik Biura Izby
             </p>
             <p>
               <strong>Elwira Teodorowicz</strong><br />
               Specjalista ds. kadrowo-finansowych
-            </p>
+            </p> -->
             <p>
               <strong>Natalia Podkomorzy-Goralewska</strong><br />
               Specjalista ds. obsługi biura
@@ -58,7 +58,7 @@
                 <v-icon small>alternate_email</v-icon>
               </v-flex>
               <v-flex>
-                <a href="mailto:iep@iep.org.pl">iep@iep.org.pl</a>
+                <a href="mailto:kontakt@iep.org.pl">kontakt@iep.org.pl</a>
               </v-flex>
             </v-layout>
           </v-flex>
