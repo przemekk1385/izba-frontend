@@ -18,19 +18,6 @@
             </v-responsive>
           </v-flex>
           <v-flex xs12 md6 class="pa-3">
-            <h6 class="title my-3">Biuro IEPiOE</h6>
-            <!-- <p>
-              <strong>Agata Uba</strong><br />
-              Kierownik Biura Izby
-            </p>
-            <p>
-              <strong>Elwira Teodorowicz</strong><br />
-              Specjalista ds. kadrowo-finansowych
-            </p> -->
-            <p>
-              <strong>Natalia Podkomorzy-Goralewska</strong><br />
-              Specjalista ds. obsługi biura
-            </p>
             <h6 class="title mb-3">Dane teleadresowe</h6>
             <strong>
               Izba Energetyki Przemysłowej<br />
