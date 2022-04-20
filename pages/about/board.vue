@@ -19,12 +19,14 @@
               Elżbieta Rozmus
             </p>
           </v-flex>
+          <!--
           <v-flex text-xs-center class="mt-5">
             <h6 class="title mb-3">Członek Zarządu</h6>
             <p>
               Krzysztof Kidawa
             </p>
           </v-flex>
+          //-->
         </v-layout>
       </v-flex>
     </v-layout>
